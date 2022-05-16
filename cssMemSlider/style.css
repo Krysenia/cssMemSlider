@@ -39,6 +39,16 @@ p {
   width: 100%;
 }
 
+#button1:checked ~ #img .img-box,
+#button1:checked ~ #text .text-box {
+  margin-left: 0;
+}
+
+#button2:checked ~ #img .img-box,
+#button2:checked ~ #text .text-box {
+  margin-left: -100%;
+}
+
 body {
   margin: 0 auto;
   max-width: 1280px;
