@@ -21,7 +21,24 @@ input {
   display: none;
 }
 
-/* мое */
+.text {
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.text-box {
+  width: 400%;
+  display: flex;
+  transition: margin 0.1s ease;
+}
+
+p {
+  display: block;
+  color: #fff;
+  font-size: 1.2em;
+  width: 100%;
+}
+
 body {
   margin: 0 auto;
   max-width: 1280px;
