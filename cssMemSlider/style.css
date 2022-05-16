@@ -54,6 +54,11 @@ p {
   margin-left: -200%;
 }
 
+#button4:checked ~ #img .img-box,
+#button4:checked ~ #text .text-box {
+  margin-left: -300%;
+}
+
 body {
   margin: 0 auto;
   max-width: 1280px;
