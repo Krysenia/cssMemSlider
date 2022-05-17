@@ -46,7 +46,7 @@ input {
   display: flex;
   width: 400%;
   height: 100%;
-  transition: margin 0.3s ease-in-out;
+  transition: margin 0.5s ease-in-out;
 }
 
 .text {
@@ -57,7 +57,7 @@ input {
 .text-box {
   width: 400%;
   display: flex;
-  transition: margin 0.1s ease;
+  transition: margin 0.5s ease;
 }
 
 p {
