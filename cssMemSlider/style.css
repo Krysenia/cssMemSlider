@@ -62,7 +62,7 @@ input {
 
 p {
   display: block;
-  color: #fff;
+  color: rgb(250, 222, 3);
   font-size: 1.2em;
   width: 100%;
 }
@@ -104,14 +104,14 @@ p {
   margin: 0 auto;
   width: 1rem;
   height: 1rem;
-  background-color: #72adff;
-  border: 0.1rem solid #72adff;
+  background-color: #e3dc02;
+  border: 0.1rem solid #ff1717;
   border-radius: 50%;
 }
 
 #buttons label:hover .dot {
-  background-color: #fff;
-  border: 0.1rem solid #fff;
+  background-color: rgb(222, 17, 112);
+  border: 0.1rem solid rgb(255, 0, 0);
 }
 
 #buttons label:not(:last-child) {
@@ -123,7 +123,7 @@ p {
 #button3:checked ~ #buttons label:nth-child(3) .dot,
 #button4:checked ~ #buttons label:nth-child(4) .dot {
   background-color: inherit;
-  border: 0.1rem solid #72adff;
+  border: 0.1rem solid #ff0000;
 }
 
 #button1:checked ~ #buttons label:hover .dot,
@@ -169,8 +169,8 @@ p {
     margin: 0 auto;
     width: 0.8rem;
     height: 0.8rem;
-    background-color: #72adff;
-    border: 0.1rem solid #72adff;
+    background-color: #0357ce;
+    border: 0.1rem solid #0d9e0d;
     border-radius: 50%;
   }
 
