@@ -27,6 +27,8 @@ input {
   grid-template-rows: 5fr 1fr;
   row-gap: 2rem;
   background-color: #1f2e3d;
+  box-shadow: 0 0 1rem 1rem #30d6d1;
+  border-radius: 2em;
   overflow: hidden;
 }
 
